@@ -9,5 +9,6 @@ public class App {
 //        System.out.println(testInject);
         Car car = annotationConfigApplicationContext.getBean("simpleCar",Car.class);
         System.out.println(car);
+        car.drive();
     }
 }

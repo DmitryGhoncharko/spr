@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Qualifier(value = "simpleCar1")
 public class SimpleCar implements Car{
     @Override
+    @LogTo
     public void drive() {
         System.out.println("simple car");
     }

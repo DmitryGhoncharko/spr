@@ -2,9 +2,11 @@ package com.example.spring_learn_proj.spilka.spring.core;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @Configuration
 @ComponentScan(value = "com.example.spring_learn_proj.spilka.spring.core*")
+@EnableAspectJAutoProxy
 public class Config {
 
 //    @Bean
